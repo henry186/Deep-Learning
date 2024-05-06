@@ -1,4 +1,7 @@
 ### files:
+- Gradient_descent.py：能算各種形狀參數的gradient的 function
+- miniBatchLearning：這章的主角，結合之前所學的做一次model training(只用forward propagation)
+
 - functions.py : 作者寫好的activation functions(自己寫也很容易)
 
 - mnist.py : 作者寫好的可以讀Minist 資料集資料的functions
@@ -10,4 +13,8 @@
 - miniBatchLearning.py: 我寫的從60000筆資料隨機取100個出來，減少學習所花的時間，稱為小批次學習
 
 - plot3Dfunction.py : 我寫的，描繪出了f(x0,x1) = x0^2 + x1^2的圖形
-- Numerical_diffferentiation:展示了f(x)= 0.01x^2 + 0.1x 的圖形及 對點x=5,10微分的結果
+
+- Numerical_diffferentiation:展示了f(x)= 0.01x^2 + 0.1x 的圖形及 對點x=5,10微分的結果，是介紹如何用python寫出微分的部分
+
+-TwoLayerNet.py：我寫的神經網路 class，有init, predict(inference), loss計算等functions
+
