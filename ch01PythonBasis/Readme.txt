@@ -1,0 +1,1 @@
+## 這章在講python的基礎語法、環境建置及numpy, matplotlib用法
