@@ -1,6 +1,6 @@
 ### files:
 
-- miniBatchLearning.py：這章的主角，結合之前所學的，對minist資料集做一次model training(只用forward propagation)
+- miniBatchLearning.py：這章的主角，結合之前所學的，對minist資料集做一次model training(只用forward propagation 搭配偏微分)
 
 - Gradient_descent.py：能算各種形狀參數的gradient的 function
 
