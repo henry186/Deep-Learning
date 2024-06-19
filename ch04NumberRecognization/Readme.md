@@ -1,3 +1,6 @@
+## 上一章用計算圖介紹了用train好的network做inference，
+### 這章則拆分成training跟testing，training時用數值微分計算gradient來做gradient descent，下一章才會教backward propagation計算graident。
+
 ### files:
 
 - miniBatchLearning.py：這章的主角，結合之前所學的，對minist資料集做一次model training(只用forward propagation 搭配偏微分)
@@ -10,7 +13,7 @@
 	裡面的load_mnist(normalize=True, flatten=True, one_hot_label=False)
 	會回傳(train Data, train Label, test Data, test Label )
 
-- CrossEntropyError.py: 我寫的交叉商誤差function
+- CrossEntropyError.py: 我寫的交叉商誤差function 
 
 - plot3Dfunction.py : 我寫的，描繪出了f(x0,x1) = x0^2 + x1^2的圖形
 
